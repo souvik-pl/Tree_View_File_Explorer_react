@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+}
+
+.expand_collapse_container {
+    width: 25px;
+    height: 80%;
+}
+
+.entity_icon {
+    height: 80%;
+    width: auto;
+    margin-right: 10px;
+}
+
+.actions {
+    margin-left: 30px;
+    visibility: hidden;
+}
+
+.action_btn {
+    width: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.action_btn img {
+    width: 80%;
+    height: auto;
+}
+
+.container:hover {
+    background-color: lightgrey;
+}
+
+.container:hover .actions {
+    visibility: visible;
+}
+
+.children_container {
+    width: 100%;
+    padding-left: 18px;
+}

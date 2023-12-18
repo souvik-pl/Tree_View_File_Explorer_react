@@ -1,0 +1,7 @@
+.container {
+    margin-left: 80px;
+    padding-top: 40px;
+    width: 750px;
+    height: 100vh;
+    overflow-y: auto;
+}
